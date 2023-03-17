@@ -3,27 +3,27 @@ var customerName = "bob"
 const leastFavouriteCustomer = 'erick'
 function upperCaseCustomerName (){
      
-customerName ='BOB'
+return customerName ='BOB'
 
 }
 //console.log(upperCaseCustomerName())
 function setBestCustomer(){
 
-       bestCustomer = "not bob";
+      return  bestCustomer = "not bob";
 }
 
 //console.log(bestCustomer)
 
 function overwriteBestCustomer(){
 
-   bestCustomer = 'maybe bob';
+   return bestCustomer = 'maybe bob';
 
 }
 
 
 function changeLeastFavoriteCustomer(){
    
-   leastFavouriteCustomer = 'mary'
+   return leastFavouriteCustomer = 'mary'
 }
 
 
